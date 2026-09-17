@@ -11,6 +11,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parent.parent
 ROOT_FILES = (
     '.gitignore', '.gitattributes', 'README.md', 'CHANGELOG.md', 'SECURITY.md',
+    'DEPLOY_WITH_AI.md',
     'requirements-app.txt', 'requirements-lock.txt', 'setup.bat', 'setup_auto.bat',
     'start.bat', 'run_checks.bat', 'download_model.py', 'download_model.bat',
 )
@@ -19,6 +20,7 @@ EXACT_FILES = (
     'frontend/vite.config.ts', 'frontend/index.html',
     'scripts/start.py', 'scripts/preflight.py', 'scripts/package_source.py',
     'docs/INSTALL.md', 'docs/USAGE.md', 'docs/DEVELOPMENT.md',
+    'docs/AI_DEPLOYMENT.md',
     'docs/RELEASING.md', 'docs/VALIDATION.md', '.github/workflows/checks.yml',
 )
 TREE_TYPES = {'backend': {'.py'}, 'tests': {'.py'}, 'frontend/src': {'.ts', '.tsx', '.css', '.svg'}}

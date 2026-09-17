@@ -6,7 +6,7 @@
 
 Windows 本地运行 · faster-whisper · React + FastAPI · SRT / TXT
 
-[安装指南](docs/INSTALL.md) · [使用说明](docs/USAGE.md) · [开发与测试](docs/DEVELOPMENT.md) · [安全说明](SECURITY.md)
+[让 AI 帮你部署](DEPLOY_WITH_AI.md) · [安装指南](docs/INSTALL.md) · [使用说明](docs/USAGE.md) · [开发与测试](docs/DEVELOPMENT.md) · [安全说明](SECURITY.md)
 
 </div>
 
@@ -45,6 +45,12 @@ Windows 本地运行 · faster-whisper · React + FastAPI · SRT / TXT
 | 空间 | 需要另行预留依赖、模型、内部结果和 ZIP 导出空间；源码包不包含这些文件 |
 
 GPU 运行还依赖与 CTranslate2 兼容的 CUDA/cuDNN 动态库。仅检测到显卡不代表推理可用，详见[安装指南](docs/INSTALL.md#gpu-与-cpu)。
+
+## 不想自己配置？可以让 AI 智能体协助部署
+
+把 [这段部署提示词](DEPLOY_WITH_AI.md) 和仓库地址交给**能操作你本人 Windows 电脑终端与文件**的 AI 智能体。它可以按 [AI 部署规范](docs/AI_DEPLOYMENT.md) 检查环境、安装项目依赖、准备模型、构建网页并分级验证。
+
+这不是“任何聊天 AI 都能一键安装”，也不是零下载离线包。系统级安装、大文件下载及已有环境变动需要你确认；模型文件、网页打开和真实转写通过是不同的验证层级，不能混为一谈。
 
 ## 快速开始
 
