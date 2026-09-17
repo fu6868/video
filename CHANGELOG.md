@@ -18,4 +18,9 @@
 - 不发布模型、媒体、数据库、结果、日志、备份及个人验收记录。
 - 增加 Windows 自动化检查工作流；运行结果以 GitHub Actions 实际状态为准。
 
+### 许可证
+
+- 按维护者选择采用 MIT License，版权署名为 2026 fu6868。
+- 同步 README、发布说明及源码 ZIP，保留第三方依赖与模型的独立许可边界。
+
 已知限制见 `docs/USAGE.md` 与 `docs/VALIDATION.md`。

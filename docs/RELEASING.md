@@ -57,4 +57,4 @@ HTTPS 推送需要本机可用的 GitHub 授权。推荐 Git Credential Manager 
 
 需要 GitHub Release 时，在确认提交后由维护者创建版本标签，并附上源码 ZIP 与校验信息。本次普通推送不自动发布版本或修改仓库可见性。
 
-仓库没有项目级 LICENSE 时，不应添加 MIT/Apache 等许可证徽章或宣称授予商用权。应由维护者明确选择许可证，再补充相应法律文本。
+本仓库已由维护者选择采用 [MIT License](../LICENSE)，版权署名为 `Copyright (c) 2026 fu6868`。发布源码 ZIP 时必须包含根目录 `LICENSE`，保留版权及许可声明；打包工具会自动纳入该文件。第三方依赖与模型继续适用各自上游许可。
